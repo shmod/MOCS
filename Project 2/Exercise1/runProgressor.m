@@ -10,8 +10,8 @@ T = 100;
 
 Population_t = zeros(size(b,2), T);
 figure
-subplot(3,2,1);
-for i = 1:5
+subplot(2,2,1);
+for i = 1:4
 
     b_i = b(i);
     %Initialize our vector of sites v
@@ -31,10 +31,10 @@ for i = 1:5
             v(k) = v(k) + 1;
         end
     end
-    subplot(3,2,i);
-    plot(1:T, Population_t(i,:));
+    subplot(2,2,i);
+    plot(0:T-1, Population_t(i,:),'LineWidth', 1);
     xlabel('Time iteration', 'FontSize', 16);
-    ylabel('Time iteration', 'Fontsize', 16);
+    ylabel('Population size', 'Fontsize', 16);
     titl = ['b = ' num2str(b_i)];
     title(titl);
     hold on

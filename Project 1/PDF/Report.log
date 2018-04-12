@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.18)  9 APR 2018 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.18)  12 APR 2018 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -213,11 +213,7 @@ Package color Info: Driver file: pdftex.def on input line 144.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./Report.aux
-
-LaTeX Warning: Label `fig:fp4' multiply defined.
-
-)
+No file Report.aux.
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -233,7 +229,7 @@ LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 65.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -342,13 +338,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 
+
+LaTeX Warning: Reference `fig:mesh1' on page 1 undefined on input line 78.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 78.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+
+
+LaTeX Warning: Reference `fig:mesh2' on page 1 undefined on input line 78.
 
 <Pictures/initial.jpg, id=1, 1124.2pt x 843.15pt>
 File: Pictures/initial.jpg Graphic file (type jpg)
@@ -370,6 +374,13 @@ Package pdftex.def Info: Pictures/Aver1000.jpg used on input line 95.
 (pdftex.def)             Requested size: 449.67204pt x 337.25401pt.
 Missing character: There is no   in font ptmr7t!
 
+
+LaTeX Warning: Reference `fig:mesh3' on page 1 undefined on input line 100.
+
+
+LaTeX Warning: Reference `fig:mesh3' on page 1 undefined on input line 100.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--101
 
  []
@@ -378,14 +389,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--101
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictu
 res/initial.jpg>] [2 <./Pictures/Simul1020.jpg>] [3 <./Pictures/Aver1000.jpg>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 104.
- <Pictures/OneCellMover.jpg, id=21, 1124.2pt x 843.15pt>
+
+LaTeX Warning: Reference `fig:mesh5' on page 4 undefined on input line 105.
+
+<Pictures/OneCellMover.jpg, id=21, 1124.2pt x 843.15pt>
 File: Pictures/OneCellMover.jpg Graphic file (type jpg)
 
 <use Pictures/OneCellMover.jpg>
 Package pdftex.def Info: Pictures/OneCellMover.jpg used on input line 111.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+
+LaTeX Warning: Reference `fig:sooter' on page 4 undefined on input line 115.
 
 <Pictures/Leav1.jpg, id=22, 1124.2pt x 843.15pt>
 File: Pictures/Leav1.jpg Graphic file (type jpg)
@@ -393,13 +408,19 @@ File: Pictures/Leav1.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/Leav1.jpg used on input line 119.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
+
+LaTeX Warning: Reference `fig:mesh6a' on page 4 undefined on input line 125.
+
 <Pictures/perMov.jpg, id=23, 1124.2pt x 843.15pt>
 File: Pictures/perMov.jpg Graphic file (type jpg)
  <use Pictures/perMov.jpg>
 Package pdftex.def Info: Pictures/perMov.jpg used on input line 129.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
-File: Pictures/perMov.jpg Graphic file (type jpg)
 
+
+LaTeX Warning: Reference `fig:osc' on page 4 undefined on input line 135.
+
+File: Pictures/perMov.jpg Graphic file (type jpg)
 <use Pictures/perMov.jpg>
 Package pdftex.def Info: Pictures/perMov.jpg used on input line 139.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
@@ -407,8 +428,13 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
  [4 <./Pictures/OneCellMover.jpg>] [5 <./Pictures/Leav1.jpg> <./Pictures/perMov
 .jpg>] [6]
-Missing character: There is no   in font ptmr7t!
 
+LaTeX Warning: Reference `fig:cInit1' on page 7 undefined on input line 224.
+
+
+LaTeX Warning: Reference `fig:cInit' on page 7 undefined on input line 224.
+
+Missing character: There is no   in font ptmr7t!
 <Pictures/cInit1.jpg, id=36, 1124.2pt x 843.15pt>
 File: Pictures/cInit1.jpg Graphic file (type jpg)
  <use Pictures/cInit1.jpg>
@@ -430,6 +456,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--239
 
  []
 
+
+LaTeX Warning: Reference `fig:square1' on page 7 undefined on input line 241.
+
+
+LaTeX Warning: Reference `fig:square' on page 7 undefined on input line 241.
+
+
+LaTeX Warning: Reference `fig:square' on page 7 undefined on input line 241.
+
 <Pictures/cSquare1.png, id=38, 1124.2pt x 843.15pt>
 File: Pictures/cSquare1.png Graphic file (type png)
 
@@ -449,6 +484,15 @@ Overfull \hbox (99.40993pt too wide) in paragraph at lines 250--251
  []
 
 [7] [8 <./Pictures/cInit1.jpg> <./Pictures/cInit.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:bucket1' on page 9 undefined on input line 257.
+
+
+LaTeX Warning: Reference `fig:square' on page 9 undefined on input line 257.
+
+
+LaTeX Warning: Reference `fig:bucket4' on page 9 undefined on input line 257.
+
 <Pictures/bucket1.png, id=47, 1124.2pt x 843.15pt>
 File: Pictures/bucket1.png Graphic file (type png)
  <use Pictures/bucket1.png>
@@ -489,16 +533,25 @@ File: Pictures/firstpart1.png Graphic file (type png)
 <use Pictures/firstpart1.png>
 Package pdftex.def Info: Pictures/firstpart1.png used on input line 291.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- <Pictures/vargr.png, id=59, 1124.2pt x 843.15pt>
-File: Pictures/vargr.png Graphic file (type png)
 
-<use Pictures/vargr.png>
+
+LaTeX Warning: Reference `fig:fp' on page 12 undefined on input line 295.
+
+
+LaTeX Warning: Reference `fig:fp3' on page 12 undefined on input line 296.
+
+<Pictures/vargr.png, id=59, 1124.2pt x 843.15pt>
+File: Pictures/vargr.png Graphic file (type png)
+ <use Pictures/vargr.png>
 Package pdftex.def Info: Pictures/vargr.png used on input line 299.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--303
 
  []
+
+
+LaTeX Warning: Reference `fig:fp4' on page 12 undefined on input line 304.
 
 
 LaTeX Warning: Reference `fig:fp5' on page 12 undefined on input line 304.
@@ -516,17 +569,26 @@ Package pdftex.def Info: Pictures/ptp.png used on input line 313.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
  [12]
 [13 <./Pictures/firstpart1.png (PNG copy)> <./Pictures/vargr.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:prob' on page 14 undefined on input line 318.
+
 <Pictures/probg.png, id=69, 1124.2pt x 843.15pt>
 File: Pictures/probg.png Graphic file (type png)
  <use Pictures/probg.png>
 Package pdftex.def Info: Pictures/probg.png used on input line 321.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
+
+LaTeX Warning: Reference `fig:aq1' on page 14 undefined on input line 328.
+
 <Pictures/6eravg.png, id=70, 1124.2pt x 843.15pt>
 File: Pictures/6eravg.png Graphic file (type png)
  <use Pictures/6eravg.png>
 Package pdftex.def Info: Pictures/6eravg.png used on input line 331.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+
+LaTeX Warning: Reference `fig:aq2' on page 14 undefined on input line 335.
 
 <Pictures/6er.png, id=71, 1848.9075pt x 843.15pt>
 File: Pictures/6er.png Graphic file (type png)
@@ -560,6 +622,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--347
  []
 
 [16 <./Pictures/6eravg.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:6p' on page 17 undefined on input line 348.
+
 <Pictures/6averp.png, id=81, 1124.2pt x 843.15pt>
 File: Pictures/6averp.png Graphic file (type png)
  <use Pictures/6averp.png>
@@ -574,6 +639,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--356
 Underfull \hbox (badness 10000) in paragraph at lines 348--356
 
  []
+
+
+LaTeX Warning: Reference `fig:aq2' on page 17 undefined on input line 358.
 
 Missing character: There is no   in font ptmr7t!
 
@@ -611,12 +679,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 477--479
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5287 strings out of 493014
- 72233 string characters out of 6133351
+ 5285 strings out of 493014
+ 72211 string characters out of 6133351
  227029 words of memory out of 5000000
  8713 multiletter control sequences out of 15000+600000
  29637 words of font info for 71 fonts, out of 8000000 for 9000
@@ -633,7 +701,7 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Report.pdf (34 pages, 1528762 bytes).
+Output written on Report.pdf (34 pages, 1529092 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
