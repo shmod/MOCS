@@ -6,11 +6,11 @@ T = 6000;
 b = [10 20 30];
 n=1000;
 figure
+
 for j = 1:3
     a_t = zeros(1,T);
     a_t(1) = 1000;
     for t = 1:1:T
-        t
         a_t(t) = t^2*exp(-t/n)*b(j)/(2*n);
     end
     subplot(1,3,j);

@@ -103,12 +103,21 @@ If the initial number of sites with a population of two is high enough, then the
 	\caption{The number of people at different timesteps for different values of b. The initial size of the population was 100 in all the cases and the number of sites was 1000}
     \label{fig:5b2c}
 \end{figure}
+\\ \\
+Figure \ref{fig:mf3} depicts the phase transition diagram and shows how frequently the size of the population at $T = 200$ takes a certain value for different values of b. From this figure, it seems like for $b \leq 5$ and $34 < b \leq 50$ the population is 0 at $T = 200$. For $5 < b < 34$, the systems manages the maintain a population of different sizes. In the beginning the range of values is relatively narrow but as we increase b we get a larger spread.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.3]{figures/PTdiag.jpg}
+	\caption{The phase transition diagram shows the occurrence of different population sizes after 200 timesteps for different values of b.}
+    \label{fig:mf3}
+\end{figure}
+
 \subsection{Mean-field equation}
 In order to find the mean field approximation we must find the expected next state given the current state.
 \begin{align*}
 E(a_{t+1}| a_t) = h \sum_{k=0}^\infty P(\text{k at site i }| a_t)\phi(k)
 \end{align*}
-Where $\phi(k)=\left\{
+Where $a_t$ is the total population size at time t and $\phi(k)=\left\{
   \begin{array}{@{}ll@{}}
     2 & \text{if}\ k = 2  \\
     0 & \text{otherwise}  \\
@@ -126,19 +135,25 @@ a_{t+1}  &= n \sum_{k=0}^\infty  \frac{(\frac{a_t}{n})^ke^\frac{-a_t}{n}}{k!} \p
 Where the second step comes from the fact that $\phi(k) = 0 \text{ if } k \neq 2$. A trivial solution is that $a_{t+1} = a_t = 0$. The number of nontrivial solutions that arise change with the size of b. In figure \ref{fig:mf} this equation has been calculated and plotted for different values of b through time. The steady state points are the points on which the blue and red lines intersect. For b = 5 there is no intersection except for on $a_t = 0$. However as $b \geq 6$, two non-trivial solutions emerge.
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[scale=0.5]{figures/meanfield.eps}
+	\includegraphics[scale=0.4]{figures/meanfield.eps}
 	\caption{$a_{t+1}$ plotted against $a_t$. The blue lines are the $a_{t+1} = a_{t}$ whereas the red lines follow $a_{t+1} = \frac{a_t^2e^\frac{-a_t}{n}}{2n} b$. In these simulations n = 1000.}
     \label{fig:mf}
 \end{figure}
 As we increase b even more, we maintain three roots as seen in figure \ref{fig:mf2} we maintain three steady states. Note that we have not proven this but we expect the system to maintain this behavior. This can be proven by noting that $lim_{a_t -> \infty} = 0$ and that $f(2000) > 2000$ and $f(1) < 1$ if $ b > 6$. Thus we know that we must have at least two intersection (other than $a_t = 0$). Note that this is for n = 1000.
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[scale=0.5]{figures/meanfield2.eps}
+	\includegraphics[scale=0.4]{figures/meanfield2.eps}
 	\caption{$a_{t+1}$ plotted against $a_t$. The blue lines are the $a_{t+1} = a_{t}$ whereas the red lines follow $a_{t+1} = \frac{a_t^2e^\frac{-a_t}{n}}{2n} b$. In these simulations n = 1000.}
     \label{fig:mf2}
 \end{figure}
-%should we prove that for >5 we have 
 
+\subsection{Lyaponov exponent}
+The Lyaponov exponent is given by
+\begin{align*}
+\lambda = \lim_{\Delta a_t \rightarrow 0}\frac{1}{n}\sum_{t=0}^T ln|f'(a_t)|
+\end{align*}
+where $f'(a_t) = \frac{a_te^{-a_t/n}}{n} - \frac{a_t^2e^{-a_t/n}}{2n^2} = \frac{a_te^{-a_t/n}}{n}(1-\frac{a_t}{2n})$
+%should we prove that for >5 we have 
 \newpage
 .
 \newpage

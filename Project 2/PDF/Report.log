@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.18)  12 APR 2018 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.18)  14 APR 2018 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -340,6 +340,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+
+
+LaTeX Warning: Reference `fig:5b' on page 1 undefined on input line 79.
+
 Missing character: There is no   in font ptmr7t!
 Package epstopdf Info: Source file: <figures/5bPop.eps>
 (epstopdf)                    date: 2018-04-12 10:09:38
@@ -351,7 +355,6 @@ Package epstopdf Info: Source file: <figures/5bPop.eps>
 d-to.pdf figures/5bPop.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
-
 <figures/5bPop-eps-converted-to.pdf, id=1, 562.1pt x 421.575pt>
 File: figures/5bPop-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -383,6 +386,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--90
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 es/5bPop-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:5b2' on page 2 undefined on input line 92.
+
 Package epstopdf Info: Source file: <figures/A_0small.eps>
 (epstopdf)                    date: 2018-04-12 10:36:59
 (epstopdf)                    size: 30632 bytes
@@ -393,7 +399,6 @@ Package epstopdf Info: Source file: <figures/A_0small.eps>
 rted-to.pdf figures/A_0small.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-
 <figures/A_0small-eps-converted-to.pdf, id=17, 562.1pt x 421.575pt>
 File: figures/A_0small-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -401,6 +406,10 @@ File: figures/A_0small-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/A_0small-eps-converted-to.pdf used on input li
 ne 95.
 (pdftex.def)             Requested size: 393.46732pt x 295.10048pt.
+
+
+LaTeX Warning: Reference `fig:5b2c' on page 2 undefined on input line 99.
+
 Package epstopdf Info: Source file: <figures/A_0small2.eps>
 (epstopdf)                    date: 2018-04-12 10:42:09
 (epstopdf)                    size: 31323 bytes
@@ -411,7 +420,6 @@ Package epstopdf Info: Source file: <figures/A_0small2.eps>
 erted-to.pdf figures/A_0small2.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
-
 <figures/A_0small2-eps-converted-to.pdf, id=18, 562.1pt x 421.575pt>
 File: figures/A_0small2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -419,16 +427,34 @@ File: figures/A_0small2-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/A_0small2-eps-converted-to.pdf used on input l
 ine 102.
 (pdftex.def)             Requested size: 393.46732pt x 295.10048pt.
+
+
+LaTeX Warning: Reference `fig:mf3' on page 2 undefined on input line 107.
+
+<figures/PTdiag.jpg, id=19, 1124.2pt x 843.15pt>
+File: figures/PTdiag.jpg Graphic file (type jpg)
+ <use figures/PTdiag.jpg>
+Package pdftex.def Info: figures/PTdiag.jpg used on input line 110.
+(pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--114
+
+ []
+
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
- [2] [3 <./figures/A_0small-eps-converted-to.pdf> <./figures/A_0small2-eps-conv
-erted-to.pdf>]
+[2] [3 <./figures/A_0small-eps-converted-to.pdf> <./figures/A_0small2-eps-conve
+rted-to.pdf>]
 Missing character: There is no   in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
+
+
+LaTeX Warning: Reference `fig:mf' on page 4 undefined on input line 135.
+
 Package epstopdf Info: Source file: <figures/meanfield.eps>
 (epstopdf)                    date: 2018-04-12 12:56:39
 (epstopdf)                    size: 368220 bytes
@@ -437,16 +463,19 @@ Package epstopdf Info: Source file: <figures/meanfield.eps>
 (epstopdf)                    size: 133175 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/meanfield-eps-conv
 erted-to.pdf figures/meanfield.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/meanfield-eps-converted-to.pdf, id=51, 924.45375pt x 421.575pt>
+<figures/meanfield-eps-converted-to.pdf, id=52, 924.45375pt x 421.575pt>
 File: figures/meanfield-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/meanfield-eps-converted-to.pdf>
 Package pdftex.def Info: figures/meanfield-eps-converted-to.pdf used on input l
-ine 129.
-(pdftex.def)             Requested size: 462.22574pt x 210.78697pt.
+ine 138.
+(pdftex.def)             Requested size: 369.77495pt x 168.627pt.
+
+
+LaTeX Warning: Reference `fig:mf2' on page 4 undefined on input line 142.
+
 Package epstopdf Info: Source file: <figures/meanfield2.eps>
 (epstopdf)                    date: 2018-04-12 13:05:15
 (epstopdf)                    size: 712771 bytes
@@ -455,54 +484,61 @@ Package epstopdf Info: Source file: <figures/meanfield2.eps>
 (epstopdf)                    size: 227127 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/meanfield2-eps-con
 verted-to.pdf figures/meanfield2.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/meanfield2-eps-converted-to.pdf, id=52, 862.22125pt x 421.575pt>
+<figures/meanfield2-eps-converted-to.pdf, id=53, 862.22125pt x 421.575pt>
 File: figures/meanfield2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/meanfield2-eps-converted-to.pdf>
 Package pdftex.def Info: figures/meanfield2-eps-converted-to.pdf used on input 
-line 136.
-(pdftex.def)             Requested size: 431.10957pt x 210.78697pt.
- [4 <./figures/meanfield-eps-converted-to.pdf>] [5 <./figures/meanfield2-eps-co
-nverted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
+line 145.
+(pdftex.def)             Requested size: 344.88239pt x 168.627pt.
+ [4 <./figures/PTdiag.jpg>]
+[5 <./figures/meanfield-eps-converted-to.pdf> <./figures/meanfield2-eps-convert
+ed-to.pdf>] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 147.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 162.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [6]
-(./Report.aux) ) 
+) [8]
+(./Report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5095 strings out of 493014
- 69610 string characters out of 6133351
- 164029 words of memory out of 5000000
- 8546 multiletter control sequences out of 15000+600000
+ 5102 strings out of 493014
+ 69724 string characters out of 6133351
+ 165029 words of memory out of 5000000
+ 8551 multiletter control sequences out of 15000+600000
  25541 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,539b,1468s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (6 pages, 493848 bytes).
+ 38i,10n,43p,540b,1468s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on Report.pdf (8 pages, 563878 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
